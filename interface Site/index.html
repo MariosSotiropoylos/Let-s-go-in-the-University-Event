@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ΣΧΟΛΗ & ΧΑΡΤΕΣ </title>
+	<link rel="icon" href="./files/images/favicon.ico">
+    <style>
+	 body {background-image:url(./files/images/background1.jpg); background-repeat: no-repeat; background-size:cover;}
+	
+	 button {background-color:rgb(180, 180, 180); color:black; border:3px solid black; border-radius:10px;}
+	 button:hover {background-color:black; color:white; border:3px solid #777;}
+     button:active {background-color:#222; color:#ffff3d; box-shadow: 0 5px #666; transform: translateY(4px);}
+	 button {font-family: Arial, Georgia, "Times New Roman", Times, serif; font-size:18px;}
+     button {padding:10px; text-align:center;} 
+	 
+	 p {font-family: Arial, "Times New Roman", Times, serif; font-size: 20px;}
+     p {margin-bottom: 10px; margin-left: 6px;}
+	 
+	 h1 {font-size: 40px; margin-left: 8px; text-align:center;}
+
+     .container {display: flex; align-items: center;}
+     .container img {max-width: 625px; height: auto; margin-left: 240px;}
+	 .container img {border:2px solid black;}
+    </style>
+</head>
+
+<body>
+<h1> Καλώς ήρθατε στην Κέρκυρα! </h1>
+
+<p style="width: 1100px; text-align:justify;"> 
+Ένα από τα σημαντικότερα θέματα που έχουν να αντιμετωπίσουν οι φοιτητές είναι η απόσταση.  
+Με βάση αυτό το σκεπτικό, έχουν δημιουργηθεί 3 ξεχωριστοί χάρτες, χρησιμοποιώντας ως βάση τον παρακάτω, 
+που αναδεικνύουν τις αποστάσεις του τμήματος Τεχνών Ήχου και Εικόνας με άλλα σημεία ενδιαφέροντος. 
+</p>
+ 
+<div class="container">
+   <div>
+	 <button style="margin:1px 20px 40px 200px; display:block; width:290px;" onclick="document.location='./UniversityMap.html'"> 
+	   <strong> Πανεπιστημιακές Εγκαταστάσεις </strong> 
+	 </button>
+     <button style="margin:30px 20px 40px 200px; display:block; width:290px;" onclick="document.location='./TransportationMap.html'"> 
+	   <strong> Μετακινήσεις </strong>
+	 </button>
+     <button style="margin:30px 20px 40px 200px; display:block; width:290px;" onclick="document.location='./FunMap.html'"> 
+	   <strong> Διασκέδαση </strong>
+	 </button>
+   </div>
+   <img src="./files/images/GeneralMap.png" style="margin-top:10px;">
+</div>
+
+</body>
+</html>
+
+
